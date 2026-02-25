@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'usb_camera_reader = usb_camera_reader.camera_publisher:main'
         ],
     },
 )
